@@ -1,5 +1,5 @@
 h1, h2, h3, h4 {
-    font-family: Georgia, Times, Times New Roman, Times, serif, serif;
+    font-family: Georgia, Times, Times New Roman, serif;
 }
 
 
@@ -14,7 +14,7 @@ header {
     border-bottom: #cccccc solid 1px;
     position: relative;
     background-color: #ffffff;
-    top: -23px;
+    /* top: -23px; */
 }
 
 nav {
@@ -27,6 +27,10 @@ body {
     background-image: url("../images/qbkls.png");
     margin: 0;
     padding: 0;
+    /* display: grid;
+  grid-template-rows: 1fr auto;
+  grid-row-start: 2;
+  grid-row-end: 3; */
 }
 
 #indeximg {
@@ -48,7 +52,7 @@ img {
 }
 
 p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     line-height: 2;
     color: #777777;
 }
@@ -86,6 +90,9 @@ footer {
     border-top: #4aaaa5 solid 5px;
     height: 85px;
     margin-top: 100px;
+
+    /* grid-row-start: 3;
+  grid-row-end: 4; */
 }
 
 form {
@@ -242,6 +249,11 @@ h3 {
 }
 
 #copy {
+    
+        /* position: absolute; 
+        left: 0 ; right: 0; bottom: 0; 
+        height:[footer-height]  */
+  
     bottom: -42px;
 }
 
