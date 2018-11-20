@@ -165,13 +165,14 @@ margin: auto;
     max-width: 960px;
     background-color: #ffffff;
     height: 1000px;
+    border-color: #dddddd;
 }
 
 .enabled {
     text-align: center;
     color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
     bottom: 25px;
     height: 0px;
@@ -343,3 +344,13 @@ h3 {
     bottom: -239px;
     left: 325px;
 }
+p:hover { color: blue; }
+a:active { color: blue; }
+a:hover {color:red;
+     background-color: green;} 
+
+     .hmmv:hover {
+        outline: 5px solid gray;
+        outline-offset: 10px;
+      }
+   
