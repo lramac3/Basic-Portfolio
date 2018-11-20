@@ -345,9 +345,8 @@ h3 {
     left: 325px;
 }
 p:hover { color: blue; }
-a:active { color: blue; }
-a:hover {color:red;
-     background-color: green;} 
+a:hover {color:green;
+     background-color: grey;} 
 
      .hmmv:hover {
         outline: 5px solid gray;
